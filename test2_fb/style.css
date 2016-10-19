@@ -1,0 +1,102 @@
+* {
+	margin: 0
+}
+
+p, h1, h3, h5, .gender_style {
+	font-family: Helvetica
+}
+
+h3 {
+    font-weight: normal;
+    margin: 4px;
+}
+
+h1 {
+    margin: 4px;
+}
+
+h3#birthday {
+    margin: 6px 0px 6px 4px;
+}
+
+p {
+    font-size: 10px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    margin-top: 21px;
+    width: 423px;
+    /* border: solid; */
+    background: #E4DCDC;
+    /* display: inline-block; */
+    border-radius: 2px;
+}
+
+.form {
+        padding: 7px 29px 13px 29px
+}
+
+.input_line {
+    width: 350px;
+    box-sizing: border-box;
+    padding: 4px;
+    margin: 4px;
+    border: 1px solid #a7a3a3;
+    border-radius: 2px;
+}
+
+.first_line {
+    width: 169px;
+    box-sizing: border-box;
+    padding: 4px;
+    margin: 4px;
+    border: 1px solid #a7a3a3;
+    border-radius: 2px;
+}
+
+p#info {
+    width: 133px;
+    word-wrap: break-word;
+    display: inline-block;
+    margin: 0px;
+    vertical-align: top;
+}
+
+select.dropdown {
+    padding: 3px;
+    margin: -2px;
+}
+
+select#month {
+    margin: -1px 0px 0px 5px;
+}
+
+input.gender_button {
+    margin: 12px;
+    /* font-size: 1px; */
+}
+
+label.gender_style {
+    font-size: 11px;
+}
+p#sign_up {
+    margin: 4px;
+}
+
+.special {
+    color: #051a86;
+}
+
+input#submit_button {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 18px;
+    color: #ffffff;
+    margin: 9px 0px 0px 4px;
+    padding: 5px 34px 5px 34px;
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    border-radius: 2px;
+    background-color: #178a17;
+}
+

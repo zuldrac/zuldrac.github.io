@@ -1,1 +1,54 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+	<div class="form">
+  <h1>Sign Up</h1>
+	<h3>Its free and always will be</h3>
+	<form>
+  		<br>
+  		<input type="text" name="firstname" class="first_line" id="firstname" placeholder="First name">
+  		<input type="text" name="lastname" class="first_line" id="lastname" placeholder="Last name">
+  		<input type="text" name="email" class="input_line" id="email" placeholder="Email or mobile number">
+  		<input type="text" name="renter_email" class="input_line" id="renter_email" placeholder="Re-enter email or mobile number">
+  		<input type="text" name="password" class="input_line" id="password" placeholder="New password">
+  	</form>
+	<h3 id="birthday">Birthday</h3>
+  <form>
+  		<select class="dropdown" id="month" name="Month">
+  			<option value="month">Month</option>
+    		<option value="january">January</option>
+    		<option value="february">February</option>
+    		<option value="March">March</option>
+    		<option value="April">April</option>
+  		</select>
+  		<select class="dropdown" name="Day">
+  					<option value="day">Day</option>
+  		  		<option value="one">1</option>
+  		  		<option value="two">2</option>
+  		  		<option value="three">3</option>
+  		  		<option value="four">4</option>
+  		</select>
+  		<select class="dropdown" name="Year">
+  					<option value="year">Year</option>
+  			  		<option value="74">1974</option>
+  			  		<option value="75">1975</option>
+  			  		<option value="76">1976</option>
+  			  		<option value="77">1977</option>
+  					</select>
+      <p class="special" id="info" >Why do I need to provide my birthday</p>
+      <br>
+    <input type="radio" name="gender" class="gender_button"  value="Female"><label class="gender_style" >Female</label>
+    <input type="radio" name="gender"  class="gender_button" value="Male"><label class="gender_style" >Male</label>
+      
+  </form>
+	<p id="sign_up">By clicking Sign Up, you agree to our Terms and that you have read our <span class="special" >Data Policy</span>, including our <span class="special" >Cookie use</span> </p>
+	<input id="submit_button" type="submit" value="Sign Up">
+  </div>
+</div>
+</body>
+</html>
