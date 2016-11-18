@@ -1,0 +1,408 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+#home {
+	background: url(../images/homebg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 600px;
+}
+
+#home .container {
+	padding: 200px 0px;
+}
+
+#home h1 {
+	color: #fff;
+	font-size: 72px;
+	font-weight: 100;
+}
+
+#home h3 {
+	color: #fff;
+	font-weight: 100;
+	margin-bottom: 40px;
+}
+
+#home i {
+	font-size: 35px;
+	color: #fff;
+}
+
+#about .container {
+	width: 500px;
+	padding-top: 100px;
+}
+
+#about {
+	background: url(../images/aboutbg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+}
+
+#about h3 {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 100;
+}
+
+#about p {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+hr {
+	width: 10%;
+}
+
+#home hr {
+	width: 38%;
+}
+
+#services h3 {
+	color: #873fb5;
+	font-size: 24px;
+}
+
+#services .service-header {
+	padding: 50px 0px;
+}
+
+#services i {
+	font-size: 50px;
+	border-right: 1px solid #c1c1c1;
+	padding-right: 20px;
+	float: left;
+	color: #c1c1c1;
+
+}
+
+#services .service-title {
+	display: inline-block;
+	padding-left: 20px;
+	margin-top: -21px;
+}
+
+#services h2 {
+	font-size: 24px;
+	font-weight: 900;
+}
+
+#services h4 {
+	color:  #873fb5;
+	margin-top: -5px;
+	font-weight: 400;
+
+}
+
+#services p {
+	margin-top: 7px;
+
+}
+
+#services .col1 {
+	padding-bottom: 20px;
+}
+
+#skills {
+	background: url(../images/skillsbg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 467px;
+}
+
+#skills .skill-left {
+	padding: 120px 0px;
+
+}
+
+#skills h2 {
+	color: #fff;
+	font-weight: 900;
+}
+
+#skills h4 {
+	color: #fff;
+}
+
+#skills p {
+	color: #fff;
+	padding: 20px 0px;
+	font-weight: 100;
+}
+
+#skills .button1 {
+	text-decoration: none;
+	font-size: 16px;
+	color: #fff;
+}
+
+#skills .button2 {
+	text-decoration: none;
+	font-size: 16px;
+	color: #fff;
+	margin-left: 12px;
+}
+
+#skills .button1:hover {
+	border-bottom: 3px solid #873fb5;
+	font-size: 16px;
+	color: #873fb5;
+	padding-bottom: 5px;
+}
+
+#skills .button2:hover {
+	border-bottom: 3px solid #873fb5;
+	font-size: 16px;
+	color: #873fb5;
+	padding-bottom: 5px;
+}
+
+#skills .skill-right {
+	padding: 70px 40px;
+	
+}
+
+#skills .progress {
+	height: 30px;
+}
+
+#skills .progress-bar {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d4296+0,8d4563+100 */
+background: #7d4296; /* Old browsers */
+background: -moz-linear-gradient(top,  #7d4296 0%, #8d4563 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #7d4296 0%,#8d4563 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #7d4296 0%,#8d4563 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d4296', endColorstr='#8d4563',GradientType=0 ); /* IE6-9 */
+
+}
+
+#portfolio h3 {
+	font-size: 24px;
+	color: #873fb5
+}
+
+#portfolio .portfolio_header {
+	margin: 50px 0px;
+}
+
+#portfolio .imgport {
+	padding: 0px;
+}
+
+#portfolio img{
+	width: 100%;
+	height: 179px;
+
+}
+
+#portfolio .bgcenter {
+	background: url(../images/sunflower.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 179px
+}
+
+#portfolio .transtext {
+	display:none;
+}
+
+#portfolio .bgcenter:hover .transtext {
+	position: relative;
+	display: block;
+	background-color: #ff00ff;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	height: 179px;
+	padding-top: 46px;
+	cursor: pointer;
+}
+
+#portfolio h3 {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 10px;
+}
+
+#portfolio i {
+	position: absolute;
+    bottom: 9px;
+    right: 16px;
+    font-size: 23px;
+    color: #fff;
+}
+
+#portfolio hr {
+	color: #fff;
+	margin: 0 auto;
+	width: 95px;
+}
+
+#info .codeline1 {
+	background-image: url(../images/stats1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 150px;
+}
+
+#info .codeline2 {
+	background-image: url(../images/stats2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 150px;
+}
+
+#info .codeline3 {
+	background-image: url(../images/stats3.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 150px;
+}
+
+#info .codeline4 {
+	background-image: url(../images/stats4.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 150px;
+}
+
+#info i {
+	margin-top: 25px;
+	font-size: 50px;
+	color: #fff;
+}
+
+#info h4 {
+	color: #fff;
+	font-weight: 100;
+}
+
+#info h2 {
+	font-size: 24px;
+	color: #fff;
+	font-weight: 900;
+}
+
+#info .info-text {
+	margin: 60px 0px;
+}
+
+#info .info-text .infogen {
+	height: 183px;
+}
+
+#myself {
+	background: url(../images/quotesbg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 394px;
+
+}
+
+#myself h3 {
+	font-size: 24px;
+	font-weight: 200;
+	color: #fff;
+	padding-top: 55px;
+}
+
+#myself p {
+	font-size: 18px;
+	font-weight: 100;
+	color: #fff;
+}
+
+#myself img {
+	padding: 40px 0px;
+	border-radius: 34%;
+}
+
+#comment .form-control {
+    background: #F5F5F5;
+}
+
+#comment .form-control:focus {
+    border-color: #873fb5;
+    outline: 0;
+    webkit box-shadow: none;
+    box-shadow: none;
+    background: #fff;
+}
+
+#comment #map {
+    width: 100%;
+    height: 313px;
+    margin-top: -1px;
+}
+
+#comment {
+    padding: 70px 0px;
+}
+
+#footer {
+	background: url(../images/homebg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 194px;
+}
+
+#footer hr {
+	width: 20%;
+	margin: 4px auto;
+}
+
+#footer h2 {
+	color: #fff;
+	font-size: 35px;
+	font-weight: 100;
+	margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+#footer i {
+	color: #fff;
+	font-size: 26px;
+    padding: 12px 7px;
+}
+
+#footer .footer-item {
+    padding: 50px 0px;
+}
+
+#small-footer {
+	background: #2F032F;
+	height: 28px;
+    margin-bottom: 30px;
+}
+
+#small-footer .small-footer-item {
+	padding: 5px 0px;
+}
+
+#small-footer p {
+	font-size: 14px;
+	font-weight: 100;
+	color: #fff;
+	display: inline-block;
+	margin-bottom: 0px;
+}
+
+#small-footer i {
+	color: #fff;
+	font-size: 14px;
+}
